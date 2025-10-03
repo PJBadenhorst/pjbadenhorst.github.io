@@ -1,0 +1,65 @@
+{
+  "app_title": "The Code Cottage",
+  "menu": {
+    "home": "Tuis",
+    "software_studio": "Sagteware Ateljee",
+    "developer_lodging": "Ontwikkelaar Akkommodasie",
+    "about": "Oor Ons",
+    "contact": "Kontak"
+  },
+  "home": {
+    "hero_title": "Welkom by Die Kode Kothuisie",
+    "hero_subtitle": "Jou Sagteware Ateljee & Ontwikkelaar Ontvlugting",
+    "website": "codecottage.co.za",
+    "services_heading": "Ons Dienste",
+    "software_studio_title": "Sagteware Ateljee",
+    "software_studio_description": "Professionele sagteware ontwikkelingsdienste vir jou besigheidsbehoeftes.",
+    "developer_lodging_title": "Ontwikkelaar Akkommodasie",
+    "developer_lodging_description": "Gemaklike akkommodasie vir ontwikkelaars tydens knyptye."
+  },
+  "software_studio": {
+    "title": "Sagteware Ateljee",
+    "intro": "Ons bied professionele sagteware ontwikkelingsdienste...",
+    "services_heading": "Dienste Aangebied:",
+    "services": [
+      "Pasgemaakte Sagteware Ontwikkeling",
+      "Web & Mobiele Toepassings",
+      "Wolk Oplossings",
+      "Tegniese Konsultasie",
+      "Stelsel Argitektuur & Ontwerp"
+    ]
+  },
+  "developer_lodging": {
+    "title": "Ontwikkelaar Akkommodasie",
+    "intro": "Gemaklike en produktiewe akkommodasie vir ontwikkelaars tydens knyptye...",
+    "amenities_heading": "Geriewe:",
+    "amenities": [
+      "Hoëspoed Internet",
+      "Toegewyde Werksruimtes",
+      "24/7 Toegang",
+      "Koffie & Verversings",
+      "Rustige Omgewing"
+    ]
+  },
+  "about": {
+    "title": "Oor Die Kode Kothuisie",
+    "paragraph1": "Die Kode Kothuisie is 'n unieke kombinasie van 'n professionele sagteware ontwikkelingsateljee en 'n gespesialiseerde akkommodasiefasiliteit vir ontwikkelaars...",
+    "paragraph2": "Ons verstaan die eise van sagteware ontwikkeling en verskaf beide die kundigheid en die omgewing om projekte te help slaag."
+  },
+  "contact": {
+    "title": "Kontak Ons",
+    "intro": "Kontak ons vir sagteware ontwikkelingsprojekte of akkommodasie navrae.",
+    "website_label": "Webwerf",
+    "website_value": "codecottage.co.za",
+    "email_label": "E-pos",
+    "email_value": "info@codecottage.co.za",
+    "phone_label": "Telefoon",
+    "phone_value": "+27 [Telefoonnommer]",
+    "address_label": "Adres",
+    "address_value": "[Adres Besonderhede]"
+  },
+  "footer": {
+    "copyright": "© 2025 Die Kode Kothuisie. Alle regte voorbehou.",
+    "build_version": "Weergawe"
+  }
+}

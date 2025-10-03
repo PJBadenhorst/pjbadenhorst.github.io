@@ -1,0 +1,65 @@
+{
+  "app_title": "The Code Cottage",
+  "menu": {
+    "home": "Home",
+    "software_studio": "Software Studio",
+    "developer_lodging": "Developer Lodging",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero_title": "Welcome to The Code Cottage",
+    "hero_subtitle": "Your Software Studio & Developer Retreat",
+    "website": "codecottage.co.za",
+    "services_heading": "Our Services",
+    "software_studio_title": "Software Studio",
+    "software_studio_description": "Professional software development services for your business needs.",
+    "developer_lodging_title": "Developer Lodging",
+    "developer_lodging_description": "Comfortable accommodations for developers during crunch time."
+  },
+  "software_studio": {
+    "title": "Software Studio",
+    "intro": "We provide professional software development services...",
+    "services_heading": "Services Offered:",
+    "services": [
+      "Custom Software Development",
+      "Web & Mobile Applications",
+      "Cloud Solutions",
+      "Technical Consulting",
+      "System Architecture & Design"
+    ]
+  },
+  "developer_lodging": {
+    "title": "Developer Lodging",
+    "intro": "Comfortable and productive accommodations for developers during crunch time...",
+    "amenities_heading": "Amenities:",
+    "amenities": [
+      "High-speed Internet",
+      "Dedicated Workspaces",
+      "24/7 Access",
+      "Coffee & Refreshments",
+      "Quiet Environment"
+    ]
+  },
+  "about": {
+    "title": "About The Code Cottage",
+    "paragraph1": "The Code Cottage is a unique combination of a professional software development studio and a specialized lodging facility for developers...",
+    "paragraph2": "We understand the demands of software development and provide both the expertise and the environment to help projects succeed."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "intro": "Get in touch with us for software development projects or lodging inquiries.",
+    "website_label": "Website",
+    "website_value": "codecottage.co.za",
+    "email_label": "Email",
+    "email_value": "info@codecottage.co.za",
+    "phone_label": "Phone",
+    "phone_value": "+27 [Phone Number]",
+    "address_label": "Address",
+    "address_value": "[Address Details]"
+  },
+  "footer": {
+    "copyright": "© 2025 The Code Cottage. All rights reserved.",
+    "build_version": "Build"
+  }
+}
