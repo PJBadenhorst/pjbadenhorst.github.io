@@ -8,26 +8,41 @@
     "contact": "Kontak"
   },
   "home": {
-    "hero_title": "Welkom by Die Kode Kothuisie",
+    "hero_title": "Welkom by The Code Cottage",
     "hero_subtitle": "Jou Sagteware Ateljee & Ontwikkelaar Ontvlugting",
     "website": "codecottage.co.za",
     "services_heading": "Ons Dienste",
     "software_studio_title": "Sagteware Ateljee",
-    "software_studio_description": "Professionele sagteware ontwikkelingsdienste vir jou besigheidsbehoeftes.",
+    "software_studio_description": "Professionele graad Android Foon en Web Applikasie ontwikkeling.",
     "developer_lodging_title": "Ontwikkelaar Akkommodasie",
     "developer_lodging_description": "Gemaklike akkommodasie vir ontwikkelaars tydens knyptye."
   },
   "software_studio": {
     "title": "Sagteware Ateljee",
-    "intro": "Ons bied professionele sagteware ontwikkelingsdienste...",
-    "services_heading": "Dienste Aangebied:",
-    "services": [
-      "Pasgemaakte Sagteware Ontwikkeling",
-      "Web & Mobiele Toepassings",
-      "Wolk Oplossings",
-      "Tegniese Konsultasie",
-      "Stelsel Argitektuur & Ontwerp"
-    ]
+    "intro": "Ons ontwikkel en publiseer professionele Android-toepassings wat beskikbaar is op die Google Play Store. Ons toepassings is ontwerp om jou meer produktief en doeltreffend te help in jou daaglikse werk.",
+    "apps_heading": "Ons Toepassings:",
+    "milestone_title": "Milestone: Tydhouer",
+    "milestone_description": "ʼn Kragtige tydvolg-toepassing wat ontwerp is om jou te help om belangrike mylpale en prestasies in jou lewe te monitor en te bestuur."
+  },
+  "milestone_app": {
+    "title": "Milestone: Tydhouer",
+    "subtitle": "Volg Jou Tyd, Bereik Jou Mylpale",
+    "intro": "Milestone is ʼn omvattende tydvolg-toepassing wat ontwerp is vir professionele persone, vryskutwerkers en spanne wat akkurate tyd wat op projekte en take spandeer word, moet volg.",
+    "features_heading": "Sleutelkenmerke:",
+    "features": [
+      "Maklike tydvolging met begin/stop tydhouers",
+      "Projek en taak organisasie",
+      "Mylpaal opvolging en vordering monitering",
+      "Gedetailleerde verslae en analise",
+      "Voer data uit vir fakturering en verslagdoening",
+      "Skoon en intuïtiewe gebruikerskoppelvlak",
+      "Vanlyn ondersteuning - volg tyd oral",
+      "Veelvuldige projek ondersteuning"
+    ],
+    "availability_heading": "Beskikbaarheid:",
+    "availability_text": "Nou beskikbaar op die Google Play Store vir Android toestelle.",
+    "coming_soon": "iOS weergawe binnekort beskikbaar!",
+    "cta_button": "Bekyk op Google Play Store"
   },
   "developer_lodging": {
     "title": "Ontwikkelaar Akkommodasie",
@@ -52,14 +67,14 @@
     "website_label": "Webwerf",
     "website_value": "codecottage.co.za",
     "email_label": "E-pos",
-    "email_value": "info@codecottage.co.za",
+    "email_value": "[E-pos Adres]",
     "phone_label": "Telefoon",
     "phone_value": "+27 [Telefoonnommer]",
     "address_label": "Adres",
     "address_value": "[Adres Besonderhede]"
   },
   "footer": {
-    "copyright": "© 2025 Die Kode Kothuisie. Alle regte voorbehou.",
+    "copyright": "© 2025 The Code Cottag. Alle regte voorbehou.",
     "build_version": "Weergawe"
   }
 }

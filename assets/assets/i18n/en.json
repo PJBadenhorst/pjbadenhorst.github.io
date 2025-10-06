@@ -13,21 +13,33 @@
     "website": "codecottage.co.za",
     "services_heading": "Our Services",
     "software_studio_title": "Software Studio",
-    "software_studio_description": "Professional software development services for your business needs.",
+    "software_studio_description": "Professional grade Android Phone and Web Application development.",
     "developer_lodging_title": "Developer Lodging",
     "developer_lodging_description": "Comfortable accommodations for developers during crunch time."
   },
   "software_studio": {
     "title": "Software Studio",
-    "intro": "We provide professional software development services...",
-    "services_heading": "Services Offered:",
-    "services": [
-      "Custom Software Development",
-      "Web & Mobile Applications",
-      "Cloud Solutions",
-      "Technical Consulting",
-      "System Architecture & Design"
-    ]
+    "intro": "We develop and publish professional Android applications available on the Google Play Store. Our apps are designed to help you be more productive and efficient in your daily work.",
+    "apps_heading": "Our Apps:",
+    "milestone_title": "Milestone: Time Tracker",
+    "milestone_description": "A powerful time tracking application designed to help you monitor and manage important milestones and achievements in your life."
+  },
+  "milestone_app": {
+    "title": "Milestone: Time Tracker",
+    "subtitle": "Track Your Time, Reach Your Milestones",
+    "intro": "Milestone is a comprehensive time tracking application designed for professionals, freelancers, and teams who need to accurately track time spent on projects and tasks.",
+    "features_heading": "Key Features:",
+    "features": [
+      "Easy time tracking with start/stop timers",
+      "Project and task organization",
+      "Milestone tracking and progress monitoring",
+      "Detailed statistics and analytics",
+      "Clean and intuitive user interface"
+    ],
+    "availability_heading": "Availability:",
+    "availability_text": "Available soon on the Google Play Store for Android devices.",
+    "coming_soon": "iOS version coming soon!",
+    "cta_button": "View on Google Play Store"
   },
   "developer_lodging": {
     "title": "Developer Lodging",
@@ -52,7 +64,7 @@
     "website_label": "Website",
     "website_value": "codecottage.co.za",
     "email_label": "Email",
-    "email_value": "info@codecottage.co.za",
+    "email_value": "[Email Address]",
     "phone_label": "Phone",
     "phone_value": "+27 [Phone Number]",
     "address_label": "Address",
