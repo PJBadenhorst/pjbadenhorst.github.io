@@ -1,0 +1,32 @@
+# Cache busting for The Code Cottage website
+
+<IfModule mod_headers.c>
+  # Don't cache the main HTML file
+  <FilesMatch "\.(html)$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires 0
+  </FilesMatch>
+
+  # Cache JavaScript and CSS for 1 hour (they have versioned filenames)
+  <FilesMatch "\.(js|css)$">
+    Header set Cache-Control "public, max-age=3600"
+  </FilesMatch>
+
+  # Cache images and fonts for 1 week
+  <FilesMatch "\.(jpg|jpeg|png|gif|ico|svg|woff|woff2|ttf|eot)$">
+    Header set Cache-Control "public, max-age=604800"
+  </FilesMatch>
+
+  # Don't cache JSON files (for translations and version)
+  <FilesMatch "\.(json)$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires 0
+  </FilesMatch>
+</IfModule>
+
+# Enable GZIP compression
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+</IfModule>
