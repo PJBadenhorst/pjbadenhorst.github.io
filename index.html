@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Code Cottage</title>
+  <script>
+    // Check for stored language preference first, then fall back to browser language
+    const storedLang = localStorage.getItem('preferredLanguage');
+
+    if (storedLang) {
+      // Use stored preference
+      window.location.href = `/${storedLang}/`;
+    } else {
+      // Detect browser language and redirect
+      const userLang = navigator.language || navigator.userLanguage;
+      const isAfrikaans = userLang.startsWith('af');
+      const detectedLang = isAfrikaans ? 'af' : 'en';
+
+      // Store the detected language
+      localStorage.setItem('preferredLanguage', detectedLang);
+      window.location.href = `/${detectedLang}/`;
+    }
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>

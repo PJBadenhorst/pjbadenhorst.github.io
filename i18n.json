@@ -1,0 +1,257 @@
+{
+  "en": {
+    "app_title": "The Code Cottage",
+    "back": "Back",
+    "menu": {
+      "home": "Home",
+      "software_studio": "Software Studio",
+      "developer_lodging": "Developer Lodging",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "home": {
+      "hero_title": "Welcome to The Code Cottage",
+      "hero_subtitle": "Your Software Studio & Developer Retreat",
+      "website": "codecottage.co.za",
+      "services_heading": "Our Services",
+      "software_studio_title": "Software Studio",
+      "software_studio_description": "Professional grade Android Phone and Web Application development.",
+      "developer_lodging_title": "Developer Lodging",
+      "developer_lodging_description": "Comfortable accommodations for developers during crunch time."
+    },
+    "software_studio": {
+      "title": "Software Studio",
+      "intro": "We develop and publish professional Android applications available on the Google Play Store. Our apps are designed to help you be more productive and efficient in your daily work.",
+      "apps_heading": "Our Apps:",
+      "milestone_title": "Milestone: Time Tracker",
+      "milestone_description": "A powerful time tracking application designed to help you monitor and manage important milestones and achievements in your life."
+    },
+    "milestone_app": {
+      "title": "Milestone: Time Tracker",
+      "subtitle": "Track Your Time, Reach Your Milestones",
+      "intro": "Milestone is a comprehensive time tracking application designed for professionals, freelancers, and teams who need to accurately track time spent on projects and tasks.",
+      "features_heading": "Key Features:",
+      "features": [
+        "Easy time tracking with start/stop timers",
+        "Project and task organization",
+        "Milestone tracking and progress monitoring",
+        "Detailed statistics and analytics",
+        "Clean and intuitive user interface"
+      ],
+      "availability_heading": "Availability:",
+      "availability_text": "Available soon on the Google Play Store for Android devices.",
+      "coming_soon": "iOS version coming soon!",
+      "cta_button": "View on Google Play Store"
+    },
+    "developer_lodging": {
+      "title": "Developer Lodging",
+      "intro": "Comfortable and productive accommodations for developers during crunch time...",
+      "amenities_heading": "Amenities:",
+      "amenities": [
+        "High-speed Internet",
+        "Dedicated Workspaces",
+        "24/7 Access",
+        "Coffee & Refreshments",
+        "Quiet Environment"
+      ]
+    },
+    "about": {
+      "title": "About The Code Cottage",
+      "paragraph1": "The Code Cottage is a unique combination of a professional software development studio and a specialized lodging facility for developers...",
+      "paragraph2": "We understand the demands of software development and provide both the expertise and the environment to help projects succeed."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "intro": "Get in touch with us for software development projects or lodging inquiries.",
+      "website_label": "Website",
+      "website_value": "codecottage.co.za",
+      "email_label": "Email",
+      "email_value": "[Email Address]",
+      "phone_label": "Phone",
+      "phone_value": "+27 [Phone Number]",
+      "address_label": "Address",
+      "address_value": "[Address Details]"
+    },
+    "footer": {
+      "copyright": "© 2025 The Code Cottage. All rights reserved.",
+      "build_version": "Build"
+    },
+    "privacy_policy": {
+      "title": "Privacy Policy",
+      "last_updated": "Last updated: January 2025",
+      "intro_title": "Introduction",
+      "intro_text": "The Code Cottage ('we', 'us', or 'our') respects your privacy and is committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you visit our website or use our services.",
+      "info_collect_title": "Information We Collect",
+      "info_collect_text": "We may collect and process the following types of information:",
+      "info_collect_items": [
+        "Personal identification information (name, email address, phone number)",
+        "Technical data (IP address, browser type, device information)",
+        "Usage data (pages visited, time spent on site, click patterns)",
+        "Cookies and similar tracking technologies"
+      ],
+      "how_we_use_title": "How We Use Your Information",
+      "how_we_use_text": "We use the information we collect for the following purposes:",
+      "how_we_use_items": [
+        "To provide and maintain our services",
+        "To respond to your inquiries and support requests",
+        "To send you updates, newsletters, and marketing communications (with your consent)",
+        "To improve our website and services based on user feedback",
+        "To detect, prevent, and address technical issues or fraudulent activity",
+        "To comply with legal obligations"
+      ],
+      "info_sharing_title": "Information Sharing and Disclosure",
+      "info_sharing_text": "We do not sell, trade, or rent your personal information to third parties. We may share your information only in the following circumstances: with your consent, to comply with legal obligations, to protect our rights and safety, or with trusted service providers who assist us in operating our website (under strict confidentiality agreements).",
+      "data_security_title": "Data Security",
+      "data_security_text": "We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet is 100% secure, and we cannot guarantee absolute security.",
+      "your_rights_title": "Your Rights",
+      "your_rights_text": "You have the following rights regarding your personal data:",
+      "your_rights_items": [
+        "Access: You can request a copy of the personal data we hold about you",
+        "Correction: You can request that we correct any inaccurate or incomplete data",
+        "Deletion: You can request that we delete your personal data",
+        "Restriction: You can request that we restrict the processing of your data",
+        "Objection: You can object to our processing of your personal data",
+        "Portability: You can request a copy of your data in a structured, machine-readable format"
+      ],
+      "cookies_title": "Cookies and Tracking Technologies",
+      "cookies_text": "We use cookies and similar tracking technologies to enhance your browsing experience, analyze site traffic, and understand user behavior. You can control cookies through your browser settings, but disabling cookies may affect the functionality of our website.",
+      "third_party_title": "Third-Party Links",
+      "third_party_text": "Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of these external sites. We encourage you to review the privacy policies of any third-party sites you visit.",
+      "children_title": "Children's Privacy",
+      "children_text": "Our services are not intended for children under the age of 13. We do not knowingly collect personal information from children. If you believe we have collected information from a child, please contact us immediately.",
+      "changes_title": "Changes to This Privacy Policy",
+      "changes_text": "We may update this privacy policy from time to time to reflect changes in our practices or legal requirements. We will notify you of any significant changes by posting the updated policy on this page with a new 'Last Updated' date.",
+      "contact_title": "Contact Us",
+      "contact_text": "If you have any questions, concerns, or requests regarding this privacy policy or our data practices, please contact us at: codecottage.co.za or via the contact information provided on our Contact page."
+    }
+  },
+  "af": {
+    "app_title": "The Code Cottage",
+    "back": "Terug",
+    "menu": {
+      "home": "Tuis",
+      "software_studio": "Sagteware Ateljee",
+      "developer_lodging": "Ontwikkelaar Akkommodasie",
+      "about": "Oor Ons",
+      "contact": "Kontak"
+    },
+    "home": {
+      "hero_title": "Welkom by The Code Cottage",
+      "hero_subtitle": "Jou Sagteware Ateljee & Ontwikkelaar Ontvlugting",
+      "website": "codecottage.co.za",
+      "services_heading": "Ons Dienste",
+      "software_studio_title": "Sagteware Ateljee",
+      "software_studio_description": "Professionele graad Android Foon en Web Applikasie ontwikkeling.",
+      "developer_lodging_title": "Ontwikkelaar Akkommodasie",
+      "developer_lodging_description": "Gemaklike akkommodasie vir ontwikkelaars tydens knyptye."
+    },
+    "software_studio": {
+      "title": "Sagteware Ateljee",
+      "intro": "Ons ontwikkel en publiseer professionele Android-toepassings wat beskikbaar is op die Google Play Store. Ons toepassings is ontwerp om jou meer produktief en doeltreffend te help in jou daaglikse werk.",
+      "apps_heading": "Ons Toepassings:",
+      "milestone_title": "Milestone: Tydhouer",
+      "milestone_description": "ʼn Kragtige tydvolg-toepassing wat ontwerp is om jou te help om belangrike mylpale en prestasies in jou lewe te monitor en te bestuur."
+    },
+    "milestone_app": {
+      "title": "Milestone: Tydhouer",
+      "subtitle": "Volg Jou Tyd, Bereik Jou Mylpale",
+      "intro": "Milestone is ʼn omvattende tydvolg-toepassing wat ontwerp is vir die individu wat akkurate tyd wat op die najaag can persoonlike doelwitte spandeer word, moet wil volg.",
+      "features_heading": "Sleutelkenmerke:",
+      "features": [
+        "Maklike tydvolging met begin/stop tydhouers",
+        "Projek en taak organisasie",
+        "Mylpaal opvolging en vordering monitering",
+        "Gedetailleerde verslae en analise",
+        "Voer data uit vir fakturering en verslagdoening",
+        "Skoon en intuïtiewe gebruikerskoppelvlak",
+        "Vanlyn ondersteuning - volg tyd oral",
+        "Veelvuldige projek ondersteuning"
+      ],
+      "availability_heading": "Beskikbaarheid:",
+      "availability_text": "Nou beskikbaar op die Google Play Store vir Android toestelle.",
+      "coming_soon": "iOS weergawe binnekort beskikbaar!",
+      "cta_button": "Bekyk op Google Play Store"
+    },
+    "developer_lodging": {
+      "title": "Ontwikkelaar Akkommodasie",
+      "intro": "Gemaklike en produktiewe akkommodasie vir ontwikkelaars tydens knyptye...",
+      "amenities_heading": "Geriewe:",
+      "amenities": [
+        "Hoëspoed Internet",
+        "Toegewyde Werksruimtes",
+        "24/7 Toegang",
+        "Koffie & Verversings",
+        "Rustige Omgewing"
+      ]
+    },
+    "about": {
+      "title": "Oor Die Kode Kothuisie",
+      "paragraph1": "Die Kode Kothuisie is 'n unieke kombinasie van 'n professionele sagteware ontwikkelingsateljee en 'n gespesialiseerde akkommodasiefasiliteit vir ontwikkelaars...",
+      "paragraph2": "Ons verstaan die eise van sagteware ontwikkeling en verskaf beide die kundigheid en die omgewing om projekte te help slaag."
+    },
+    "contact": {
+      "title": "Kontak Ons",
+      "intro": "Kontak ons vir sagteware ontwikkelingsprojekte of akkommodasie navrae.",
+      "website_label": "Webwerf",
+      "website_value": "codecottage.co.za",
+      "email_label": "E-pos",
+      "email_value": "[E-pos Adres]",
+      "phone_label": "Telefoon",
+      "phone_value": "+27 [Telefoonnommer]",
+      "address_label": "Adres",
+      "address_value": "[Adres Besonderhede]"
+    },
+    "footer": {
+      "copyright": "© 2025 The Code Cottag. Alle regte voorbehou.",
+      "build_version": "Weergawe"
+    },
+    "privacy_policy": {
+      "title": "Privaatheidsbeleid",
+      "last_updated": "Laas opgedateer: Januarie 2025",
+      "intro_title": "Inleiding",
+      "intro_text": "The Code Cottage ('ons' of 'die maatskappy') respekteer jou privaatheid en is daartoe verbind om jou persoonlike data te beskerm. Hierdie privaatheidsbeleid verduidelik hoe ons jou inligting insamel, gebruik en beveilig wanneer jy ons webwerf besoek of ons dienste gebruik.",
+      "info_collect_title": "Inligting Wat Ons Insamel",
+      "info_collect_text": "Ons kan die volgende tipes inligting insamel en verwerk:",
+      "info_collect_items": [
+        "Persoonlike identifikasie-inligting (naam, e-posadres, telefoonnommer)",
+        "Tegniese data (IP-adres, blaaier tipe, toestel inligting)",
+        "Gebruiksdata (bladsye besoek, tyd op werf spandeer, klikpatrone)",
+        "Koekies en soortgelyke naspoor tegnologieë"
+      ],
+      "how_we_use_title": "Hoe Ons Jou Inligting Gebruik",
+      "how_we_use_text": "Ons gebruik die inligting wat ons insamel vir die volgende doeleindes:",
+      "how_we_use_items": [
+        "Om ons dienste te verskaf en te onderhou",
+        "Om te reageer op jou navrae en ondersteuningsversoeke",
+        "Om jou opdaterings, nuusbriewe en bemarkingskommunikasie te stuur (met jou toestemming)",
+        "Om ons webwerf en dienste te verbeter gebaseer op gebruikersterugvoer",
+        "Om tegniese probleme of bedrieglike aktiwiteite op te spoor, te voorkom en aan te spreek",
+        "Om aan wetlike verpligtinge te voldoen"
+      ],
+      "info_sharing_title": "Inligting Deel en Openbaarmaking",
+      "info_sharing_text": "Ons verkoop, verhandel of verhuur nie jou persoonlike inligting aan derde partye nie. Ons kan jou inligting slegs in die volgende omstandighede deel: met jou toestemming, om aan wetlike verpligtinge te voldoen, om ons regte en veiligheid te beskerm, of met betroubare diensverskaffers wat ons help om ons webwerf te bedryf (onder streng vertroulikheidsooreenkomste).",
+      "data_security_title": "Data Sekuriteit",
+      "data_security_text": "Ons implementeer toepaslike tegniese en organisatoriese maatreëls om jou persoonlike data te beskerm teen ongemagtigde toegang, wysiging, openbaarmaking of vernietiging. Geen metode van oordraging oor die internet is egter 100% veilig nie, en ons kan nie absolute sekuriteit waarborg nie.",
+      "your_rights_title": "Jou Regte",
+      "your_rights_text": "Jy het die volgende regte rakende jou persoonlike data:",
+      "your_rights_items": [
+        "Toegang: Jy kan 'n afskrif van die persoonlike data wat ons oor jou hou, aanvra",
+        "Regstelling: Jy kan versoek dat ons enige onakkurate of onvolledige data regstel",
+        "Verwydering: Jy kan versoek dat ons jou persoonlike data verwyder",
+        "Beperking: Jy kan versoek dat ons die verwerking van jou data beperk",
+        "Beswaar: Jy kan beswaar maak teen ons verwerking van jou persoonlike data",
+        "Oordraagbaarheid: Jy kan 'n afskrif van jou data aanvra in 'n gestruktureerde, masjien-leesbare formaat"
+      ],
+      "cookies_title": "Koekies en Naspoor Tegnologieë",
+      "cookies_text": "Ons gebruik koekies en soortgelyke naspoor tegnologieë om jou blaai-ervaring te verbeter, werf verkeer te analiseer en gebruikersgedrag te verstaan. Jy kan koekies beheer deur jou blaaier instellings, maar die deaktivering van koekies kan die funksionaliteit van ons webwerf beïnvloed.",
+      "third_party_title": "Derde Party Skakels",
+      "third_party_text": "Ons webwerf kan skakels na derde party webwerwe bevat. Ons is nie verantwoordelik vir die privaatheidspraktyke of inhoud van hierdie eksterne werwe nie. Ons moedig jou aan om die privaatheidsbeleide van enige derde party werwe wat jy besoek, te hersien.",
+      "children_title": "Kinders se Privaatheid",
+      "children_text": "Ons dienste is nie bedoel vir kinders onder die ouderdom van 13 nie. Ons samel nie doelbewus persoonlike inligting van kinders in nie. As jy glo ons het inligting van 'n kind ingesamel, kontak ons asseblief onmiddellik.",
+      "changes_title": "Veranderinge aan Hierdie Privaatheidsbeleid",
+      "changes_text": "Ons kan hierdie privaatheidsbeleid van tyd tot tyd opdateer om veranderinge in ons praktyke of wetlike vereistes te weerspieël. Ons sal jou in kennis stel van enige beduidende veranderinge deur die opgedateerde beleid op hierdie bladsy te plaas met 'n nuwe 'Laas Opgedateer' datum.",
+      "contact_title": "Kontak Ons",
+      "contact_text": "As jy enige vrae, bekommernisse of versoeke het rakende hierdie privaatheidsbeleid of ons data praktyke, kontak ons asseblief by: codecottage.co.za of via die kontakinligting wat op ons Kontak bladsy verskaf word."
+    }
+  }
+}
