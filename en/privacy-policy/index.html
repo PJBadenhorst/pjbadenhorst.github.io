@@ -5,94 +5,87 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Code Cottage</title>
   <link rel="stylesheet" href="/css/style.css">
-  <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header class="header">
-    <div class="container">
-      <div class="header-content">
-        <div class="language-selector">
-          <button id="langToggle" class="lang-button">
-            <span class="flag">🇬🇧</span>
-            <span class="lang-name">English</span>
-            <span class="arrow">▼</span>
-          </button>
-          <div id="langMenu" class="lang-menu">
-            <a href="/en/privacy-policy/" class="lang-option">
-              <span class="flag">🇬🇧</span>
-              <span>English</span>
-            </a>
-            <a href="/af/privacy-policy/" class="lang-option">
-              <span class="flag">🇿🇦</span>
-              <span>Afrikaans</span>
-            </a>
-          </div>
-        </div>
-
-        <div class="logo">
-          <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
-          </svg>
-          <h1>The Code Cottage</h1>
-        </div>
-
-        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
-          <span></span>
-          <span></span>
-          <span></span>
+  <div class="container">
+    <div class="header-content">
+      <div class="language-selector">
+        <button id="langToggle" class="lang-button">
+          <span class="flag"><img src="/images/flag-en.svg" alt="English" width="20" height="20"></span>
+          <span class="lang-name">English</span>
+          <span class="arrow">▼</span>
         </button>
-
-        <nav class="nav desktop-nav">
-          <a href="/en/" class="nav-link ">Home</a>
-          <a href="/en/software-studio/" class="nav-link ">Software Studio</a>
-          <a href="/en/developer-lodging/" class="nav-link ">Developer Lodging</a>
-          <a href="/en/about/" class="nav-link ">About</a>
-          <a href="/en/contact/" class="nav-link ">Contact</a>
-        </nav>
+        <div id="langMenu" class="lang-menu">
+          <a href="/en/privacy-policy/" class="lang-option">
+            <span class="flag"><img src="/images/flag-en.svg" alt="English" width="20" height="20"></span>
+            <span>English</span>
+          </a>
+          <a href="/af/privacy-policy/" class="lang-option">
+            <span class="flag"><img src="/images/flag-af.svg" alt="Afrikaans" width="20" height="20"></span>
+            <span>Afrikaans</span>
+          </a>
+        </div>
       </div>
-    </div>
-  </header>
 
-  <div class="mobile-drawer" id="mobileDrawer">
-    <div class="drawer-header">
-      <svg class="icon" viewBox="0 0 24 24" fill="white">
-        <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
-      </svg>
-      <h2>The Code Cottage</h2>
-    </div>
-    <nav class="drawer-nav">
-      <a href="/en/" class="drawer-link ">
+      <div class="logo">
         <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
           <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
         </svg>
-        <span>Home</span>
-      </a>
-      <a href="/en/software-studio/" class="drawer-link ">
-        <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M20 18c1.1 0 1.99-.9 1.99-2L22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z"/>
-        </svg>
-        <span>Software Studio</span>
-      </a>
-      <a href="/en/developer-lodging/" class="drawer-link ">
-        <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M7 13c1.66 0 3-1.34 3-3S8.66 7 7 7s-3 1.34-3 3 1.34 3 3 3zm12-6h-8v7H3V7H1v10h22v-6c0-2.21-1.79-4-4-4z"/>
-        </svg>
-        <span>Developer Lodging</span>
-      </a>
-      <a href="/en/about/" class="drawer-link ">
-        <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
-        </svg>
-        <span>About</span>
-      </a>
-      <a href="/en/contact/" class="drawer-link ">
-        <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-        </svg>
-        <span>Contact</span>
-      </a>
-    </nav>
+        <h1>The Code Cottage</h1>
+      </div>
+
+      <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav desktop-nav">
+        <a href="/en/" class="nav-link ">Home</a>
+        <a href="/en/software-studio/" class="nav-link ">Software Studio</a>
+        <a href="/en/about/" class="nav-link ">About</a>
+        <a href="/en/contact/" class="nav-link ">Contact</a>
+      </nav>
+    </div>
   </div>
+</header>
+
+<div class="mobile-drawer" id="mobileDrawer">
+  <div class="drawer-header">
+    <svg class="icon" viewBox="0 0 24 24" fill="white">
+      <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+    </svg>
+    <h2>The Code Cottage</h2>
+  </div>
+  <nav class="drawer-nav">
+    <a href="/en/" class="drawer-link ">
+      <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+      </svg>
+      <span>Home</span>
+    </a>
+    <a href="/en/software-studio/" class="drawer-link ">
+      <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M20 18c1.1 0 1.99-.9 1.99-2L22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z"/>
+      </svg>
+      <span>Software Studio</span>
+    </a>
+    <a href="/en/about/" class="drawer-link ">
+      <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+      </svg>
+      <span>About</span>
+    </a>
+    <a href="/en/contact/" class="drawer-link ">
+      <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+      </svg>
+      <span>Contact</span>
+    </a>
+  </nav>
+</div>
+
 
   <main class="main">
     
@@ -182,19 +175,13 @@
   </main>
 
   <footer class="footer">
-    <div class="container">
-      <p>© 2025 The Code Cottage. All rights reserved.</p>
-      <p class="build-version">Build: 7</p>
-    </div>
-  </footer>
+  <div class="container">
+    <p>© 2025 The Code Cottage. All rights reserved.</p>
+    <p class="build-version">Build: 9</p>
+  </div>
+</footer>
+
 
   <script src="/js/main.js"></script>
-  <script>
-    // Convert emoji to images using Twemoji
-    twemoji.parse(document.body, {
-      folder: 'svg',
-      ext: '.svg'
-    });
-  </script>
 </body>
 </html>
