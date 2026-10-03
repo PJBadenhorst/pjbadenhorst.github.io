@@ -477,6 +477,31 @@ ul.features-list li::before, ul.amenities-list li::before {
   color: var(--white);
 }
 
+/* App status badge and action buttons */
+.app-status {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #eee;
+  color: #444;
+}
+
+.app-status-internal-testing { background-color: #fdecc8; color: #7a4b00; }
+.app-status-closed-testing   { background-color: #ffe0cc; color: #8a3a00; }
+.app-status-public-testing   { background-color: #d6e9fb; color: #0b4a85; }
+.app-status-live             { background-color: #d4edda; color: var(--primary-dark); }
+
+.app-status-label { font-weight: 400; }
+
+.app-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
 /* Back Button */
 .back-button {
   display: inline-flex;
