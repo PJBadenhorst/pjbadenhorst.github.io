@@ -5,6 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Code Cottage</title>
   <link rel="stylesheet" href="/css/style.css">
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KTNJJ9GERT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KTNJJ9GERT');
+</script>
+
 </head>
 <body>
   <header class="header">
@@ -103,11 +113,38 @@
     <p style="margin-top: 24px;">Milestone gives you a flexible set of tracking cards, purpose built, that you organise into Journeys, named workspaces you can switch between, share, or archive. Whether you&#39;re tracking how long you spend on a hobby, building a daily habit, counting down to a big event, or logging your mood each day, Milestone has a card for it. Everything is stored locally on your device, and privacy controls let you hide sensitive cards with a single tap from prying eyes.</p>
 
     
+    
     <div class="app-actions">
-      <a href="https://forms.gle/yHeGx53ngCH9wwG68" class="btn btn-secondary">Become a Tester</a>
-      <a href="https://forms.gle/mSMhr2Bb1wQMAra56" class="btn btn-secondary">Tester Feedback</a>
+      <button type="button" class="btn btn-secondary" data-dialog-open="tester-dialog">Testing Programme</button>
       
     </div>
+    
+
+    
+    
+    <dialog id="tester-dialog" class="dialog" aria-labelledby="tester-dialog-title">
+      <button type="button" class="dialog-close" data-dialog-close aria-label="Close">&times;</button>
+      <h3 id="tester-dialog-title">Help us test Milestone</h3>
+      <p>Milestone is still in testing. Joining means you get to try new features first, and you help shape the app. Here is what to expect:</p>
+      <ul class="features-list">
+        
+        <li>You will install the app from Google Play using a private invite link, which is sent once your application is accepted.</li>
+        
+        <li>The app may have bugs, and features may change between versions.</li>
+        
+        <li>There is no formal support yet, and manuals and tutorials are still in the pipeline.</li>
+        
+        <li>You may receive occasional tester emails about the status of the project, new builds, and requests for feedback.</li>
+        
+        <li>You can leave the testing programme at any time.</li>
+        
+      </ul>
+      <div class="dialog-actions">
+        <a href="https://forms.gle/yHeGx53ngCH9wwG68" class="btn">Become a Tester</a>
+        <a href="https://forms.gle/mSMhr2Bb1wQMAra56" class="btn btn-secondary">Tester Feedback</a>
+        <a href="https://forms.gle/MTYku4sUdZowPPoh6" class="btn btn-secondary">Retire from Testing</a>
+      </div>
+    </dialog>
     
 
     <h3 style="margin-top: 32px;">Key Features:</h3>
@@ -133,6 +170,59 @@
       
     </ul>
 
+    
+    
+    <h3 style="margin-top: 32px;">Highlights</h3>
+    <div class="carousel" data-carousel
+         data-label-prev="Previous"
+         data-label-next="Next"
+         data-label-goto="Go to slide">
+      <div class="carousel-track" tabindex="0" role="region" aria-label="Highlights">
+        
+        <figure class="carousel-slide">
+          <img src="/images/apps/milestone/highlights/01-journeys.svg" alt="Placeholder: the Journeys screen">
+          <figcaption>
+            <strong>Journeys</strong>
+            <span>Group your cards into named workspaces.</span>
+          </figcaption>
+        </figure>
+        
+        <figure class="carousel-slide">
+          <img src="/images/apps/milestone/highlights/02-activity.svg" alt="Placeholder: an Activity card" loading="lazy">
+          <figcaption>
+            <strong>Time what matters</strong>
+            <span>Start and stop timers with full session history.</span>
+          </figcaption>
+        </figure>
+        
+        <figure class="carousel-slide">
+          <img src="/images/apps/milestone/highlights/03-countdown.svg" alt="Placeholder: a Date card" loading="lazy">
+          <figcaption>
+            <strong>Count up or down</strong>
+            <span>Track milestones, anniversaries and deadlines.</span>
+          </figcaption>
+        </figure>
+        
+        <figure class="carousel-slide">
+          <img src="/images/apps/milestone/highlights/04-habits.svg" alt="Placeholder: an Achievement card" loading="lazy">
+          <figcaption>
+            <strong>Build streaks</strong>
+            <span>Daily habit check-ins that keep you going.</span>
+          </figcaption>
+        </figure>
+        
+        <figure class="carousel-slide">
+          <img src="/images/apps/milestone/highlights/05-privacy.svg" alt="Placeholder: privacy mode" loading="lazy">
+          <figcaption>
+            <strong>Keep it private</strong>
+            <span>Hide sensitive cards with a single tap.</span>
+          </figcaption>
+        </figure>
+        
+      </div>
+    </div>
+    
+
     <h3 style="margin-top: 32px;">Availability:</h3>
     <p>Google Play Store for Android devices comming soon!</p>
     <p>iOS version coming soon!</p>
@@ -144,7 +234,7 @@
   <footer class="footer">
   <div class="container">
     <p>© 2025 The Code Cottage. All rights reserved.</p>
-    <p class="build-version">Build: 11</p>
+    <p class="build-version">Build: 12</p>
   </div>
 </footer>
 
