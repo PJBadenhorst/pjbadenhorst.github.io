@@ -406,6 +406,42 @@ body {
   color: var(--text-dark);
 }
 
+/* Product card (home page): icon on the left, text beside it */
+.product-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.product-icon {
+  flex-shrink: 0;
+  width: 144px;
+  height: 144px;
+  border-radius: 32px;
+}
+
+.product-text h3 {
+  margin-bottom: 6px;
+}
+
+/* App detail page: icon beside the title */
+.app-title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.app-title h2 {
+  margin-bottom: 0;
+}
+
+.app-title-icon {
+  flex-shrink: 0;
+  width: 72px;
+  height: 72px;
+  border-radius: 16px;
+}
+
 /* List Styles */
 ul.features-list, ul.amenities-list {
   list-style: none;
