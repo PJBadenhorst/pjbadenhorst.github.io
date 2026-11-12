@@ -387,6 +387,8 @@ body {
   padding: 32px;
   box-shadow: var(--shadow);
   transition: all 0.3s;
+  display: block;
+  text-decoration: none;
 }
 
 .service-card:hover {
@@ -500,6 +502,7 @@ ul.features-list li::before, ul.amenities-list li::before {
 .app-actions {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 12px;
   margin-top: 24px;
 }
@@ -603,7 +606,7 @@ ul.features-list li::before, ul.amenities-list li::before {
 .carousel-slide img {
   display: block;
   width: 100%;
-  aspect-ratio: 9 / 19.5;
+  aspect-ratio: 9 / 16;
   object-fit: cover;
   border-radius: 16px;
   box-shadow: var(--shadow-lg);
